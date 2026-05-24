@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2C2C2C">
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="604dp"
+        android:layout_height="55dp"
+        android:gravity="center"
+        android:text="Адресант – адресат"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="437dp"
+        android:layout_height="91dp"
+        android:background="@drawable/rounded_row_bg"
+        android:padding="8dp"
+        android:gravity="center"
+        android:text="Утром адресат получил заказное письмо."
+        android:textColor="#2C2C2C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.259" />
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="437dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_row_bg"
+        android:padding="8dp"
+        android:gravity="center"
+        android:text="Узнать о местонахождении ожидаемой посылки адресант может по трек-номеру отправления."
+        android:textColor="#2C2C2C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        app:layout_constraintVertical_bias="0.397" />
+
+    <TextView
+        android:id="@+id/question3"
+        android:layout_width="437dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/rounded_row_bg"
+        android:padding="8dp"
+        android:gravity="center"
+        android:text="При отправке письма адресант должен указать почтовый индекс."
+        android:textColor="#2C2C2C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        app:layout_constraintVertical_bias="0.926" />
+
+    <ImageButton
+        android:id="@+id/yes_1"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:background="@drawable/rounded_row_bg"
+        android:padding="0.5dp"
+        android:scaleType="centerInside"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/yes_min"
+        app:layout_constraintStart_toEndOf="@id/question1"
+        app:layout_constraintTop_toTopOf="@id/question1"
+        app:layout_constraintBottom_toBottomOf="@id/question1" />
+
+
+    <ImageButton
+        android:id="@+id/no_2"
+        android:layout_width="44dp"
+        android:layout_height="43dp"
+        android:background="@drawable/rounded_row_bg"
+        android:padding="0.5dp"
+        android:scaleType="centerInside"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/no_min"
+        app:layout_constraintStart_toEndOf="@id/yes_2"
+        app:layout_constraintTop_toTopOf="@id/yes_2"
+        app:layout_constraintBottom_toBottomOf="@id/yes_2" />
+
+
+    <ImageButton
+        android:id="@+id/yes_2"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:background="@drawable/rounded_row_bg"
+        android:padding="0.5dp"
+        android:scaleType="centerInside"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/yes_min"
+        app:layout_constraintStart_toEndOf="@id/question2"
+        app:layout_constraintTop_toTopOf="@id/question2"
+        app:layout_constraintBottom_toBottomOf="@id/question2" />
+
+
+    <ImageButton
+        android:id="@+id/no_3"
+        android:layout_width="44dp"
+        android:layout_height="43dp"
+        android:background="@drawable/rounded_row_bg"
+        android:padding="0.5dp"
+        android:scaleType="centerInside"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/no_min"
+        app:layout_constraintStart_toEndOf="@id/yes_3"
+        app:layout_constraintTop_toTopOf="@id/yes_3"
+        app:layout_constraintBottom_toBottomOf="@id/yes_3" />
+
+
+    <ImageButton
+        android:id="@+id/yes_3"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:background="@drawable/rounded_row_bg"
+        android:padding="0.5dp"
+        android:scaleType="centerInside"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/yes_min"
+        app:layout_constraintStart_toEndOf="@id/question3"
+        app:layout_constraintTop_toTopOf="@id/question3"
+        app:layout_constraintBottom_toBottomOf="@id/question3" />
+
+
+    <ImageButton
+        android:id="@+id/no_1"
+        android:layout_width="44dp"
+        android:layout_height="43dp"
+        android:background="@drawable/rounded_row_bg"
+        android:padding="0.5dp"
+        android:scaleType="centerInside"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/no_min"
+        app:layout_constraintStart_toEndOf="@id/yes_1"
+        app:layout_constraintTop_toTopOf="@id/yes_1"
+        app:layout_constraintBottom_toBottomOf="@id/yes_1" />
+
+
+    <ImageView
+        android:id="@+id/viewlevel1"
+        android:layout_width="216dp"
+        android:layout_height="135dp"
+        android:src="@drawable/adresat_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/btnDictionary"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="Словарь"
+        android:textColor="#2C2C2C"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="Далее"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:enabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewlevel1"
+        app:layout_constraintVertical_bias="0.775" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
