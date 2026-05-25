@@ -34,7 +34,7 @@ class LevelData {
     }
 }
 
-public class Level1Activity extends AppCompatActivity {
+public class Level1Activity extends BaseActivity {
     private Level1ActivityBinding binding;
     private List<LevelData> levels = new ArrayList<>();
     private int currentLevelIndex = 0;

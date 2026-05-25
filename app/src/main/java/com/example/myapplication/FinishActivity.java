@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.myapplication.databinding.FinishActivityBinding;
 
-public class FinishActivity extends AppCompatActivity {
+public class FinishActivity extends BaseActivity {
     private FinishActivityBinding binding;
 
     @Override

@@ -3,12 +3,12 @@ package com.example.myapplication;
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.appcompat.app.AppCompatActivity;
+
 
 import com.example.myapplication.databinding.ActivityModeSelectionBinding;
 
 
-public class ActivityModeSelection extends AppCompatActivity {
+public class ActivityModeSelection extends BaseActivity {
     private ActivityModeSelectionBinding binding;
 
     @Override

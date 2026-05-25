@@ -18,7 +18,7 @@ import android.graphics.drawable.AnimatedImageDrawable;
 import android.graphics.drawable.Drawable;
 
 
-public class TestActivity extends AppCompatActivity {
+public class TestActivity extends BaseActivity {
     private TestActivityBinding binding;
     private ArrayList<TestQuestion> testQuestions;
     private int currentQuestionIndex = 0;

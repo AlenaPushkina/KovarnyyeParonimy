@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.myapplication.databinding.TestFinishActivityBinding;
 
-public class TestFinishActivity extends AppCompatActivity {
+public class TestFinishActivity extends BaseActivity {
     private TestFinishActivityBinding binding;
 
     @Override

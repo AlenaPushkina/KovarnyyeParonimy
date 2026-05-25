@@ -16,7 +16,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Level2Activity extends AppCompatActivity {
+public class Level2Activity extends BaseActivity {
     private Level2ActivityBinding binding;
     private ArrayList<SubLevel> subLevels;
     private int currentLevelIndex2 = 0;
